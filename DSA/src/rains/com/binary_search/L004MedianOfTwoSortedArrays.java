@@ -12,11 +12,7 @@ public class L004MedianOfTwoSortedArrays {
         int mid = 0;
         int indA = 0, indB = 0;
         int i = 0;
-        if (right % 2 == 0) {
-            mid = (right / 2);
-        } else {
-            mid = (right / 2 + (1 / 2));
-        }
+        mid = (right / 2);
         int[] res = new int[mid + 1];
         while (mid >= i) {
 

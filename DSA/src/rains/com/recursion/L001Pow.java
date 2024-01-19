@@ -1,8 +1,8 @@
 package rains.com.recursion;
 
-public class Pow {
+public class L001Pow {
     public static void main(String[] args) {
-        var obj = new Pow();
+        var obj = new L001Pow();
         double res = obj.myPow(2, 10);
         System.out.println(res);
     }
